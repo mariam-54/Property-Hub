@@ -1,0 +1,8 @@
+.btn-filter-style{
+    color: #fff !important;
+    background-color: #21616A !important;
+}
+.btn-filter-style:hover,
+.btn-filter-style:active{
+    background-color: #EFA00F !important;
+}

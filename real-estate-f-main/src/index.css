@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather" !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  scroll-behavior: smooth;
+  transition: all 0.5s ease;
+}
+
+body.light {
+  background-color: #fff;
+  color: #111;
+}
+
+body.dark {
+  background-color: #010714;
+  color: #fff;
+}
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none !important;
+}
+
+:root {
+  /* Colors */
+  --Primary: #21616a;
+  --Secondary-1: #efa00f;
+  --Secondary-2: #56aeb1;
+  --White: #ffffff;
+  --Black: #000000;
+
+  /* font-weight */
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  /* typography */
+  --h1-48: 48px;
+  --h1-50: 50px;
+  --h1-52: 52px;
+  --h1-54: 54px;
+  --h1-56: 56px;
+  --h1-58: 58px;
+  --h1-60: 60px;
+
+  --h2-25: 25px;
+  --h2-34: 34px;
+  --h2-36: 36px;
+  --h2-38: 38px;
+  --h2-40: 40px;
+  --h2-42: 42px;
+  --h2-44: 44px;
+  --h2-46: 46px;
+  --h2-48: 48px;
+  --h2-50: 50px;
+
+  --h4-18: 18px;
+  --h4-20: 20px;
+  --h4-22: 22px;
+
+  --p-12: 12px;
+  --p-14: 14px;
+  --p-16: 16px;
+  --p-18: 18px;
+  --p-20: 20px;
+  --p-22: 22px;
+  --p-24: 24px;
+  --p-40: 40px;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+::-webkit-scrollbar-track {
+  border: 7px solid #007580;
+  box-shadow: inset 0 0 2.5px 2px rgba(134, 189, 195, 0.5);
+  border-radius: 3px;
+
+  background-image: linear-gradient(to left, #007580, #e7bc3c);
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to left, #007580, #e7bc3c);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(#007580, #e7bc3c);
+}
+.css-19opgx6-MuiFormControlLabel-root .MuiFormControlLabel-label{
+  color:#000000;
+}
+.css-195ii7s-MuiFormControlLabel-root .MuiFormControlLabel-label{
+  color: #fff;
+}
+.borderRadius{
+    border-radius:150px;
+}

@@ -1,0 +1,28 @@
+.hero-banner{
+    background: url('../../assets//images/unsplash_XbwHrt87mQ0.png'), 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), center center;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width:100%;
+    margin-top: 4em;
+}
+.home-contact-banner{
+    background: url('../../assets/images/section 3.png');
+    background-position: center;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100%;   
+}
+
+@media (max-width:660px) {
+    .hero-banner{
+        height: 90vh;
+    }
+}

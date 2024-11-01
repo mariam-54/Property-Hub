@@ -1,0 +1,28 @@
+.footer-info {
+    color: #E6D1B4;
+    font-size: 18px; 
+}
+
+.footer-contact {
+    color: var(--Secondary-1);
+    margin-right: 0.5rem; 
+    font-size: 1.2rem; 
+}
+
+.footer-span {
+    color: var(--White);
+    font-size: 0.9rem; 
+    cursor: pointer;
+}
+.footer-span:hover{
+    color: var(--Secondary-2) ;
+    font-weight: var(--fw-600);
+}
+.social-icon svg {
+    color: var(--Secondary-2);
+    font-size: 1.8rem; 
+}
+
+.social-icon:hover svg {
+    color: var(--Secondary-1);
+}
